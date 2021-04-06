@@ -10,8 +10,29 @@
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js" integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" crossorigin="anonymous"></script>
 
     <!-- To automatically render math in text elements, include the auto-render extension: -->
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js" integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"
-        onload="renderMathInElement(document.body);"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js" integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+                delimiters: [
+                    {left: "$$", right: "$$", display: true},
+                    {left: "$", right: "$", display: false},
+                    {left: "\\(", right: "\\)", display: false},
+                    {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+                    {left: "\\begin{align}", right: "\\end{align}", display: true},
+                    {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+                    {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+                    {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+                    {left: "\\[", right: "\\]", display: true}
+                    ],
+                // • rendering keys, e.g.:
+                throwOnError : false
+            });
+        });
+    </script>
 
 	<title>University of South Carolina - Algebra, Geometry, and Number Theory Seminar</title>
     <!-- Remember to specify the correct path to the css file -->
@@ -62,7 +83,7 @@ Watch this space for occasional online-only events throughout the semester:
 	<p><b>Abstract:</b> The essential dimension of an algebraic group is an interesting numerical invariant that ties together problems in representation theory, algebraic geometry, and number theory. The essential dimension of finite groups is especially relevant and work to classify finite groups of small essential dimension has been an ongoing project in the literature.</p>
 
 
-	<p>I present a conjectural classification of finite groups of essential dimension 2 over Q and the current state of progress on this problem.</p>
+	<p>I present a conjectural classification of finite groups of essential dimension 2 over $\mathbb{Q}$ and the current state of progress on this problem.</p>
 
 	<p align="right">(Zoom meeting details sent by department-wide email or contact <a href="mailto:duncan@math.sc.edu">Alex Duncan</a>.)</p>
 </li> <br/>
