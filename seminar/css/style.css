@@ -17,9 +17,11 @@
     background-repeat: no-repeat;
     background-color: #73000A;
     background-position: top right;
+    text-align: center;
   }
   #logo h1 {
     margin: 0;
+    text-align: center;
     padding-top: 15px;
   }
   h1 {
