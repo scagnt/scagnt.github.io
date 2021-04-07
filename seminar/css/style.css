@@ -1,7 +1,7 @@
 #logo {
     /* work around for annoying safari display bug: see the other -moz-... in *{} below */
     -moz-box-sizing:content-box;
-    width: 829px;
+    width: 848px;
     height: 95px;
     margin-top: 30px;
     margin-bottom: 0px;
