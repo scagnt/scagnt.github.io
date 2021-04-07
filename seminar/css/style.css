@@ -1,25 +1,22 @@
 #logo {
-    /* work around for annoying safari display bug: see the other -moz-... in *{} below */
-    -moz-box-sizing:content-box;
-    width: 848px;
-    height: 95px;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom:30px;
-    border-top:   0px solid #181818;
-    border-left:  0px solid #181818;
-    border-right: 0px solid #73000A;
-    border-bottom: 12px solid #000000;
-    color:#fff;
-    background-repeat: no-repeat;
-    background-color: #73000A;
-    background-position: top right;
+  overflow: hidden;
+  color:#fff;
+  margin-top: 3%;
+  border-top:   1px solid white;
+  border-left:  1px solid white;
+  border-right: 1px solid white;
+  /*background-image: url('http://www.math.upenn.edu/~guffin/images/current'); */
+  background-repeat: no-repeat;
+  background-color: #73000A;
+  background-position: top center;
+  text-align: center;
   }
   #logo h1 {
     margin: 0;
-    padding-top: 15px;
+    float: center;
+    padding-top: 65px;
+    padding-bottom: 15px;
+    font-size: xx-large;
   }
   h1 {
     margin-bottom: 1.5em;
@@ -57,8 +54,8 @@
     width: 800px;
   }
   body {
-    background: #000000;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    color: #000000;
-    padding-bottom:20px;
+    max-width: 1080px; 
+	  margin: 0 auto !important; 
+    float: none !important; 
+    background-color: black;
