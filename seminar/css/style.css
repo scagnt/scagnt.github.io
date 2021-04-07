@@ -17,6 +17,7 @@
     background-repeat: no-repeat;
     background-color: #73000A;
     background-position: top right;
+    justify-content: center;
   }
   #logo h1 {
     margin: 0;
@@ -29,7 +30,6 @@
     text-decoration: none;
     color: #FFFFFF;
     font-size: 28px;
-    text-align: center;
   }
   #logo a {
     text-decoration: none;
