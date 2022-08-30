@@ -1,0 +1,138 @@
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  <head>
+	 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css" integrity="sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js" integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js" integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+                delimiters: [
+                    {left: "$$", right: "$$", display: true},
+                    {left: "$", right: "$", display: false},
+                    {left: "\\(", right: "\\)", display: false},
+                    {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+                    {left: "\\begin{align}", right: "\\end{align}", display: true},
+                    {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+                    {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+                    {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+                    {left: "\\[", right: "\\]", display: true}
+                    ],
+                // • rendering keys, e.g.:
+                throwOnError : false
+            });
+        });
+    </script>
+
+	 <title>University of South Carolina - Algebra, Geometry, and Number Theory - Student Seminar</title>
+     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+  </head>
+  <body>
+	 <div id="logo">
+		 <div><h1>Algebra, Geometry, and Number Theory - Student Seminar</h1></div><br/>
+		 <div><h2>
+		<a href="http://www.math.sc.edu">Department of Mathematics</a><br/>
+		<a href="http://www.sc.edu">University of South Carolina</a>
+    </h2></div>
+	 </div>
+	 <!-- start page -->
+	 <div id="page">
+		<!-- start content -->
+		<div id="fullcontent">
+
+<p align="center"><font size="+1"><i>Fall 2021</i></font></p>
+<hr/>
+
+<p> 
+</p>
+<p>
+  This seminar is constructed to promote an environment for graduate students working on algebraic geometry and neighboring fields to give expository talks on research topics, an opportunity to share ideas, and collaborate within one another. For security reasons, meeting location will be shared via the group's <a href="http://scagnt.zulipchat.com">Zulip server</a>. If you want the meeting information for a particular talk, contact 
+  <a href="mailto:lankpn@math.sc.edu">
+	Pat Lank</a>.</p>
+</font>
+<br/>
+
+<hr>
+
+<br/>
+
+<center>
+<table border="0" cellspacing="5">
+    <thead>
+        <tr>
+            <td width="15%"><b> <u>Week of</u> </b></td>
+            <td width="25%"><b> <u>Speaker</u> </b></td>
+            <td width="40%"><b> <u>Title</u> </b></td>
+        </tr>
+    </thead>
+
+    <tbody>
+	  
+    <tr><td> 9/8/21</td>
+    <td><b><a href="prob1"></a></b><br>University of South Carolina</td>
+    <td><a href="#prob1">Problem session</a></td> 
+    
+    <tr><td> 9/15/21</td>
+    <td><b><a href="prob2">J</a></b><br>University of South Carolina</td>
+    <td><a href="#prob2">Problem session</a></td> 
+    
+    <tr><td> 9/22/21</td>
+    <td><b><a href="prob3">J</a></b><br>University of South Carolina</td>
+    <td><a href="#prob 3">Problem session</a></td>
+	  
+    <tr><td> 10/11/22</td>
+    <td><b><a href="Smith2">Jonathan Smith</a></b><br>University of South Carolina</td>
+    <td><a href="#Smith2">Birational geometry on the projective plane</a></td>
+    
+    <tr><td> 11/1/22</td>
+    <td><b><a href="Smith2">Jonathan Smith</a></b><br>University of South Carolina</td>
+    <td><a href="#Smith2">Introduction to Galois Cohomology</a></td>
+
+    <tr><td> 11/14/21</td>
+    <td><b><a href="http://patlank.com">Pat Lank</a></b><br>University of South Carolina</td>
+    <td><a href="#Anirban1"></a></td>
+	    
+    </tbody>
+</table>
+
+<br>
+
+<hr>
+
+<p align="center"><font size="+1">Abstracts</font></p>
+
+
+<p id="Pat1" align="left">  <b>Pat Lank</b> - <b>Within this talk, I introduce a notion of Frobenius generation in the bounded category of coherent sheaves for a variety. This will cover known examples, and some new.</b></p>
+	
+<p id="Bailey1" align="left">  <b>Baiely Heath</b> - <b>We will begin this talk by defining root systems, which are finite subsets of Euclidean space satisfying nice properties, such as invariance under the reflections they determine.  These sets and their automorphisms give rise to very special and ubiquitous groups called Weyl groups, as well as interesting invariant lattices under the action of the Weyl group.  Finally, we will discuss how Weyl groups may be used to construct maximal finite subgroups of $\operatorname{GL}_n\left(\mathbb{Z}\right)$, an important application of these ideas.</b></p>
+
+<p id="Anirban1" align="left">  <b>Anirban Bhaduri</b> - <b>We discuss the Quiver representation, Path algebra, the indecomposable modules over path algebra, the simple and the projective modules. We specially talk about Finite representation type with an Example of $kA_n$.</b></p>
+	
+<p id="Pat2" align="left">  <b>Pat Lank</b> - <b>Within this talk, I will discuss a method for constructing objects within the derived category of complexes of finitely generated modules from a single object, called a classical generator, and three operations (i.e. cones, shifts, and direct summands). This gives one a meaningful understanding to the structure of the bounded derived category by isolating an object and studying it thru these operations. From this, we can determine whether or not there is a uniform bound on the number of steps required to build any object from a given classical generator. In the case that there is a finite number, we call such objects strong generators. This introduces the question, what is the smallest number of steps required to build an object? We answer these questions and explore further notions of dimension which have been introduced for derived categories.</b></p>
+
+<p id="Shreya1" align="left">  <b>Shreya Sharma</b> - <b>Given two polynomials $f$ and $g$ in variables $x$ and $y$, it is possible to find the number of common solutions by solving $f=g=0$. In some more generality, one can ask if there are any common solutions to homogeneous polynomials $f_1, \ldots f_m$ in $n$ variables. And if yes, how many? Intersection theory deals with the generalization of these questions in higher dimensions and other spaces besides $\mathbb{P}^n$. In this talk, I will motivate and describe the ‘intersection number’ for two curves(effective divisors) on a surface and compute it in some cases. All the necessary notations and definitions will be given as required and are taken from Hartshorne’s Algebraic Geometry. The talk is roughly based on Chapter 5.1 from the book.</b></p>
+	    
+<p align="left">
+ 
+</p>
+
+        </div>
+        <!-- end content -->
+
+    </div>
+    <!-- end page -->
+
+    <!-- start bottom bar -->
+    <div id="bottombar">
+    </div>
+</body>
+</html>
